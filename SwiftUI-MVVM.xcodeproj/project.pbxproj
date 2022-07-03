@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		552E40282871F21B00354E20 /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552E40272871F21B00354E20 /* Image+Extension.swift */; };
+		552E402A2872136A00354E20 /* ApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552E40292872136A00354E20 /* ApiKey.swift */; };
 		55CFE53D2871CC44001B5A66 /* SwiftUI_MVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CFE53C2871CC44001B5A66 /* SwiftUI_MVVMApp.swift */; };
 		55CFE53F2871CC44001B5A66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CFE53E2871CC44001B5A66 /* ContentView.swift */; };
 		55CFE5412871CC48001B5A66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CFE5402871CC48001B5A66 /* Assets.xcassets */; };
@@ -14,6 +16,14 @@
 		55CFE54E2871CC49001B5A66 /* SwiftUI_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CFE54D2871CC49001B5A66 /* SwiftUI_MVVMTests.swift */; };
 		55CFE5582871CC49001B5A66 /* SwiftUI_MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CFE5572871CC49001B5A66 /* SwiftUI_MVVMUITests.swift */; };
 		55CFE55A2871CC49001B5A66 /* SwiftUI_MVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CFE5592871CC49001B5A66 /* SwiftUI_MVVMUITestsLaunchTests.swift */; };
+		55CFE5682871CD66001B5A66 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CFE5672871CD66001B5A66 /* MovieModel.swift */; };
+		55CFE56A2871CD98001B5A66 /* CastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CFE5692871CD98001B5A66 /* CastModel.swift */; };
+		55CFE56D2871CDF5001B5A66 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CFE56C2871CDF5001B5A66 /* ApiManager.swift */; };
+		55CFE56F2871CE0B001B5A66 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CFE56E2871CE0B001B5A66 /* ApiService.swift */; };
+		55CFE5722871CE30001B5A66 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 55CFE5712871CE30001B5A66 /* Alamofire */; };
+		55CFE5752871CEA5001B5A66 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CFE5742871CEA5001B5A66 /* MovieCell.swift */; };
+		55CFE5782871CF82001B5A66 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CFE5772871CF82001B5A66 /* Constants.swift */; };
+		55CFE57B2871EA23001B5A66 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CFE57A2871EA23001B5A66 /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		552E40272871F21B00354E20 /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
+		552E40292872136A00354E20 /* ApiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKey.swift; sourceTree = "<group>"; };
 		55CFE5392871CC44001B5A66 /* SwiftUI-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CFE53C2871CC44001B5A66 /* SwiftUI_MVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MVVMApp.swift; sourceTree = "<group>"; };
 		55CFE53E2871CC44001B5A66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +56,13 @@
 		55CFE5532871CC49001B5A66 /* SwiftUI-MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-MVVMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CFE5572871CC49001B5A66 /* SwiftUI_MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MVVMUITests.swift; sourceTree = "<group>"; };
 		55CFE5592871CC49001B5A66 /* SwiftUI_MVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55CFE5672871CD66001B5A66 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		55CFE5692871CD98001B5A66 /* CastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastModel.swift; sourceTree = "<group>"; };
+		55CFE56C2871CDF5001B5A66 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		55CFE56E2871CE0B001B5A66 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		55CFE5742871CEA5001B5A66 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		55CFE5772871CF82001B5A66 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		55CFE57A2871EA23001B5A66 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55CFE5722871CE30001B5A66 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		552E40262871F20800354E20 /* Image+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				552E40272871F21B00354E20 /* Image+Extension.swift */,
+			);
+			path = "Image+Extension";
+			sourceTree = "<group>";
+		};
 		55CFE5302871CC44001B5A66 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +122,12 @@
 		55CFE53B2871CC44001B5A66 /* SwiftUI-MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				552E40262871F20800354E20 /* Image+Extension */,
+				55CFE5792871EA09001B5A66 /* ViewModel */,
+				55CFE5762871CF72001B5A66 /* Constants */,
+				55CFE5732871CE86001B5A66 /* CustomView */,
+				55CFE56B2871CDE7001B5A66 /* Manager */,
+				55CFE5662871CD59001B5A66 /* Model */,
 				55CFE53C2871CC44001B5A66 /* SwiftUI_MVVMApp.swift */,
 				55CFE53E2871CC44001B5A66 /* ContentView.swift */,
 				55CFE5402871CC48001B5A66 /* Assets.xcassets */,
@@ -127,6 +161,49 @@
 			path = "SwiftUI-MVVMUITests";
 			sourceTree = "<group>";
 		};
+		55CFE5662871CD59001B5A66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55CFE5672871CD66001B5A66 /* MovieModel.swift */,
+				55CFE5692871CD98001B5A66 /* CastModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55CFE56B2871CDE7001B5A66 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				55CFE56C2871CDF5001B5A66 /* ApiManager.swift */,
+				55CFE56E2871CE0B001B5A66 /* ApiService.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		55CFE5732871CE86001B5A66 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				55CFE5742871CEA5001B5A66 /* MovieCell.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		55CFE5762871CF72001B5A66 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				55CFE5772871CF82001B5A66 /* Constants.swift */,
+				552E40292872136A00354E20 /* ApiKey.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		55CFE5792871EA09001B5A66 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				55CFE57A2871EA23001B5A66 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +220,9 @@
 			dependencies = (
 			);
 			name = "SwiftUI-MVVM";
+			packageProductDependencies = (
+				55CFE5712871CE30001B5A66 /* Alamofire */,
+			);
 			productName = "SwiftUI-MVVM";
 			productReference = 55CFE5392871CC44001B5A66 /* SwiftUI-MVVM.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +295,9 @@
 				Base,
 			);
 			mainGroup = 55CFE5302871CC44001B5A66;
+			packageReferences = (
+				55CFE5702871CE30001B5A66 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 55CFE53A2871CC44001B5A66 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +340,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55CFE5752871CEA5001B5A66 /* MovieCell.swift in Sources */,
+				55CFE5682871CD66001B5A66 /* MovieModel.swift in Sources */,
 				55CFE53F2871CC44001B5A66 /* ContentView.swift in Sources */,
+				55CFE56F2871CE0B001B5A66 /* ApiService.swift in Sources */,
+				552E402A2872136A00354E20 /* ApiKey.swift in Sources */,
+				55CFE56D2871CDF5001B5A66 /* ApiManager.swift in Sources */,
+				552E40282871F21B00354E20 /* Image+Extension.swift in Sources */,
+				55CFE56A2871CD98001B5A66 /* CastModel.swift in Sources */,
 				55CFE53D2871CC44001B5A66 /* SwiftUI_MVVMApp.swift in Sources */,
+				55CFE5782871CF82001B5A66 /* Constants.swift in Sources */,
+				55CFE57B2871EA23001B5A66 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +675,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		55CFE5702871CE30001B5A66 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		55CFE5712871CE30001B5A66 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55CFE5702871CE30001B5A66 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 55CFE5312871CC44001B5A66 /* Project object */;
 }

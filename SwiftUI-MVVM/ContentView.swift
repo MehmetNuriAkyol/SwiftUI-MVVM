@@ -8,9 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject private var viewModel = MainViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List {
+                ForEach(viewModel.movies, id: \.id) {
+                    MovieCell(movie: $0)
+                }
+            }
+            .listStyle(.inset)
+            .navigationTitle("Movies")
+        }
+        .onAppear {
+            viewModel.getInitialData()
+        }
     }
 }
 
